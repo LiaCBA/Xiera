@@ -1,45 +1,29 @@
 import styles from "./Footer.module.css";
+import { footer } from "../../../data/footer";
+import { icons } from "../../../data/footer";
+
 function Footer() {
-  const footerParts = [
-    {
-      title: "Support",
-      links: ["FAQ", "How it Works", "Features", "Contact"],
-    },
-    {
-      title: "Links",
-      links: ["Facebook", "Instagram", "YouTube", "Twitter"],
-    },
-    {
-      title: "Get in Touch",
-      links: ["123 456 7789 10", "007 popie, New City, USA"],
-    },
-  ];
   return (
     <footer className={styles.footerMainContainer}>
       <div className={styles.footerContainer}>
         <div className={styles.footerTopContainer}>
           <div className={styles.logoAndIconCondainer}>
             <a href="#">
-              <img src="/Logo.svg" alt="Logo" />
+              <img src="/img/svg/Logo.svg" alt="Logo" />
             </a>
             <div className={styles.socialMediaMainContainer}>
               <div className={styles.socialMediaIconContainer}>
-                <a href="https:/twitter.com" className={styles.socialMediaIcon}>
-                  <img src="/twitterIcon.svg" alt="Twitter" />
-                </a>
-                <a href="https://facebook.com" className={styles.socialMediaIcon}>
-                  <img src="/facebookIcon.svg" alt="Facebook" />
-                </a>
-                <a href="https://linkedin.com" className={styles.socialMediaIcon}>
-                  <img src="/LinkdinIcon.svg" alt="LinkedIn" />
-                </a>
+                {icons.map((eachIconElement) => (
+                  <a href={eachIconElement.link} className={styles.socialMediaIcon}>
+                    <img src={eachIconElement.imgage} alt={eachIconElement.title} />
+                  </a>
+                ))}
               </div>
-
               <p>Follow our social media.</p>
             </div>
           </div>
           <div className={styles.Additionalnformation}>
-            {footerParts.map((eachElement, index) => (
+            {footer.map((eachElement, index) => (
               <div key={index}>
                 <h3 className={styles.listTitle}>{eachElement.title}</h3>
                 <ul className={styles.listContainer}>
@@ -61,4 +45,5 @@ function Footer() {
     </footer>
   );
 }
+
 export default Footer;

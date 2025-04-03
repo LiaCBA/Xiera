@@ -9,7 +9,7 @@ function Footer() {
         <div className={styles.footerTopContainer}>
           <div className={styles.logoAndIconCondainer}>
             <a href="#">
-              <img src="/img/svg/Logo.svg" alt="Logo" />
+              <img src="/images/svg/Logo.svg" alt="Logo" />
             </a>
             <div className={styles.socialMediaMainContainer}>
               <div className={styles.socialMediaIconContainer}>

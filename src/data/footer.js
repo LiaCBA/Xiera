@@ -16,17 +16,17 @@ export const footer = [
 export const icons = [
   {
     link: "https:/twitter.com",
-    imgage: "/img/svg/twitterIcon.svg",
+    imgage: "/images/svg/twitterIcon.svg",
     title: "Twitter",
   },
   {
     link: "https://facebook.com",
-    imgage: "/img/svg/facebookIcon.svg",
+    imgage: "/images/svg/facebookIcon.svg",
     title: "Facebook",
   },
   {
     link: "https://linkedin.com",
-    imgage: "/img/svg/LinkdinIcon.svg",
+    imgage: "/images/svg/LinkdinIcon.svg",
     title: "LinkedIn",
   },
 ];

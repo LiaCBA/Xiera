@@ -1,0 +1,59 @@
+.headerMainContainer {
+  font-family: var(--font-family-Inter);
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 60px auto 0;
+}
+
+.headerContainer {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  gap: 40px;
+}
+
+.logoContainer select {
+  border: 1px solid white;
+}
+
+.navContainer ul,
+li {
+  display: flex;
+  gap: 40px;
+  color: var(--color-header-text);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttonContainer p {
+  color: var(--color-header-link);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.buttonContainer .createAccount {
+  border-style: none;
+  border-radius: 34px;
+  height: 56px;
+  background-color: var(--color-header-buttonBG);
+  color: white;
+  font-size: 14px;
+  padding: 16px 27px;
+  font-weight: 600;
+}

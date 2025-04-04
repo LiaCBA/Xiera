@@ -173,8 +173,7 @@ select {
   font-family: "poppinesFont";
   src: url("/Poppins-Regular.ttf");
 }
-<<<<<<< Updated upstream
-=======
+
 @font-face {
   font-family: "monstserrat";
   src: url("/Montserrat-Regular.ttf");
@@ -184,7 +183,3 @@ select {
   font-family: "inter";
   src: url("/Inter_28pt-Regular.ttf");
 }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes

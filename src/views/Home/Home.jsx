@@ -1,3 +1,5 @@
+import Footer from "../../components/organisms/Footer/Footer";
+
 const Home = () => {
   return (
     <div>
@@ -23,7 +25,7 @@ const Home = () => {
       {/*Subscribe newsletter component import here*/}
 
       {/*Footer*/}
-      {/*Footer component import here*/}
+      <Footer />
     </div>
   );
 };

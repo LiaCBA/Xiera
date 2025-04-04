@@ -6,15 +6,8 @@
   --color-accent: #ff5722;
   --color-background: #f8f9fa;
   --color-text: #212529;
-  --color-footer-paragraph: #72747a;
-  --color-icon-background: #eeecf59a;
-  --color-paragraph-title: #292929;
-  --color-footer-listParagraph: #727278;
-  --color-footer-bottom-paragrph: #c1c6cc;
 
   /* Typography */
-  --font-family-Poppins: "poppinesFont", Arial;
-  --font-family-Montserrat: "monstserrat", Arial;
   --font-family-base: "Arial", sans-serif;
 }
 
@@ -167,15 +160,4 @@ input,
 textarea,
 select {
   font: inherit;
-}
-* {
-  box-sizing: border-box;
-}
-@font-face {
-  font-family: "poppinesFont";
-  src: url("/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: "monstserrat";
-  src: url("/Montserrat-Regular.ttf");
 }

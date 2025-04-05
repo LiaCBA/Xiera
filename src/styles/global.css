@@ -9,6 +9,7 @@
   --color-header-text: #495263;
   --color-header-link: #28344a;
   --color-header-buttonBG: #864bd8;
+  --color-mainText: white;
 
   /* Typography */
   --font-family-Poppins: "poppinesFont", Arial;
@@ -187,4 +188,3 @@ select {
   font-family: "inter";
   src: url("/Inter_28pt-Regular.ttf");
 }
-

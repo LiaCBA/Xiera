@@ -23,7 +23,7 @@ function Header() {
         </nav>
         <div className={styles.buttonContainer}>
           <a href="#">
-            <p>Log In</p>
+            <span>Log In</span>
           </a>
           <button className={styles.createAccount}>Create Account</button>
         </div>

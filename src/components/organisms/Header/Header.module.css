@@ -41,7 +41,7 @@ li {
   gap: 20px;
 }
 
-.buttonContainer p {
+.buttonContainer span {
   color: var(--color-header-link);
   font-weight: 600;
   font-size: 14px;

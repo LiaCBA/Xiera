@@ -12,6 +12,7 @@
 
   /* Typography */
   --font-family-Poppins: "poppinesFont", Arial;
+  --font-family-Montserrat: "monstserrat", Arial;
   --font-family-base: "Arial", sans-serif;
   --font-family-Inter: "inter", Arial;
 }
@@ -169,6 +170,9 @@ textarea,
 select {
   font: inherit;
 }
+* {
+  box-sizing: border-box;
+}
 @font-face {
   font-family: "poppinesFont";
   src: url("/Poppins-Regular.ttf");
@@ -183,3 +187,4 @@ select {
   font-family: "inter";
   src: url("/Inter_28pt-Regular.ttf");
 }
+

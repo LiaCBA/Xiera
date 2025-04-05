@@ -22,7 +22,7 @@
 }
 
 .logoContainer select {
-  border: 1px solid white;
+  border: 1px solid var(--color-mainText);
 }
 
 .navContainer ul,
@@ -52,7 +52,7 @@ li {
   border-radius: 34px;
   height: 56px;
   background-color: var(--color-header-buttonBG);
-  color: white;
+  color: var(--color-mainText);
   font-size: 14px;
   padding: 16px 27px;
   font-weight: 600;

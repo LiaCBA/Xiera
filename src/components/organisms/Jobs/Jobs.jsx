@@ -35,7 +35,7 @@ export default function Jobs() {
               <div className={styles.card}>
                 <div className={styles.brandContainer}>
                   <div className={styles.imageContainer}>
-                    <img src={eachElement.image} alt="" />
+                    <img src={eachElement.image} alt={eachElement.company} />
                   </div>
                   <div>
                     <p className={styles.brandName}>{eachElement.company}</p>
@@ -60,7 +60,11 @@ export default function Jobs() {
               <div className={styles.card}>
                 <div className={styles.brandContainer}>
                   <div className={styles.imageContainer}>
-                    <img src={eachElement.image} alt="" />
+                    <img
+                      className={styles.companyLogo}
+                      src={eachElement.image}
+                      alt={eachElement.company}
+                    />
                   </div>
                   <div>
                     <p className={styles.brandName}>{eachElement.company}</p>

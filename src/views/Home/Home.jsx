@@ -1,5 +1,6 @@
 import Footer from "../../components/organisms/Footer/Footer";
 import Header from "../../components/organisms/Header/Header";
+import Jobs from "../../components/organisms/Jobs/Jobs";
 
 const Home = () => {
   return (
@@ -11,8 +12,7 @@ const Home = () => {
       {/*How it Works component import here*/}
 
       {/*Jobs near me*/}
-      {/*Jobs near me component import here*/}
-
+      <Jobs />
       {/*99+ jobs category*/}
       {/*99+ jobs category component import here*/}
 

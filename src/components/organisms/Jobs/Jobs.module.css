@@ -50,8 +50,23 @@
   cursor: pointer;
   transition: background 300ms ease-in-out;
 }
-.embla__prev img {
+.rightButton {
   transform: rotate(180deg);
+  width: 14px;
+  height: 12px;
+  transition: color 300ms ease-in-out;
+}
+.leftButton {
+  width: 14px;
+  height: 12px;
+  transition: color 300ms ease-in-out;
+}
+.embla__next:hover .leftButton path {
+  fill: var(--color-mainText);
+}
+
+.embla__prev:hover .rightButton path {
+  fill: var(--color-mainText);
 }
 .embla__next:hover {
   background-color: var(--color-orange);

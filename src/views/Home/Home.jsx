@@ -1,5 +1,6 @@
 import Footer from "../../components/organisms/Footer/Footer";
 import Header from "../../components/organisms/Header/Header";
+import NewsLetter from "../../components/organisms/NewsLetter/NewsLetter";
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
       {/*Testimonials near me component import here*/}
 
       {/*Subscribe newsletter*/}
-      {/*Subscribe newsletter component import here*/}
+      <NewsLetter />
 
       {/*Footer*/}
       <Footer />

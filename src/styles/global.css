@@ -12,6 +12,18 @@
   --color-mainText: white;
   --color-btn: #ffb200;
   --color-newsletter: #bc95f2;
+  --color-lightGray: #5b5a62;
+  --color-jobsBackground: #efeef3;
+  --color-untilBlack: #292929;
+  --color-untilWhite: #edeeef;
+  --color-orange: #f57343;
+  --color-orangeParagraph: #f36532;
+  --color-orangeBackground: #f8ece8;
+  --color-grayColor: #b5b8c6;
+  --color-grayParagraph: #838383;
+  --color-grayContainerColor: #f8f7fe;
+
+
   /* Typography */
   --font-family-Poppins: "poppinesFont", Arial;
   --font-family-Montserrat: "monstserrat", Arial;
